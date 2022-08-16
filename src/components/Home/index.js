@@ -3,12 +3,13 @@ import { Callout, Card } from '@telus-uds/ds-allium'
 import { NextSeo } from 'next-seo'
 import seoConfig from './seo.config'
 import { Table, StackView } from '@telus-uds/ds-allium'
-import { Button } from '@telus-uds/ds-allium'
 import { Icon } from '@telus-uds/ds-allium'
 import { Document,  Clipboard, Delete } from '@telus-uds/palette-allium/build/rn/icons'
 import axios from 'axios'
 
 const PARTNERS_API_PATH = 'http://localhost:3000/api/partners'
+const locale = 'en-CA'
+const options = {year: 'numeric', month: 'short', day: 'numeric'}
 
 const Home = () => { 
   const [partners, setPartners] = useState([]);
@@ -59,13 +60,13 @@ const Home = () => {
                   </Table.Cell>
                 </Table.Row>
                {partners && partners.length > 0 && partners.map((partner) => {
-                return ( <Table.Row>
-                  <Table.Cell>{partner.id}</Table.Cell>
-                  <Table.Cell>Ivan Gabrovsky</Table.Cell>
-                  <Table.Cell>Ivan</Table.Cell>
-                  <Table.Cell>On-boarding with Settlement</Table.Cell>
-                  <Table.Cell>June 12 2022</Table.Cell>
-                  <Table.Cell>June 12 2027</Table.Cell>
+                return ( <Table.Row key={partner?.id}>
+                  <Table.Cell>{partner?.id}</Table.Cell>
+                  <Table.Cell>{partner?.name}</Table.Cell>
+                  <Table.Cell>{partner?.adjustmentCharacteristics?.settlementAlias?.uniqueName}</Table.Cell>
+                  <Table.Cell>{partner?.status?.partnerStatusDescTxt}</Table.Cell>
+                  <Table.Cell>{new Date(partner?.status?.timePeriod?.startTs).toLocaleDateString(locale, options)}</Table.Cell>
+                  <Table.Cell>{new Date(partner?.status?.timePeriod?.endTs).toLocaleDateString(locale, options)}</Table.Cell>
                   <Table.Cell>
                     <StackView space={3} divider direction="row">
                       <Icon icon={Document}  accessibilityLabel="More Info"/>
