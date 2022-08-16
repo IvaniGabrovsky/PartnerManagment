@@ -1,0 +1,52 @@
+{
+  "name": "partner-management",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "cypress": "cypress",
+    "dev": "next dev",
+    "lint": "next lint -d .",
+    "prepare": "risk-engine-cov pre-commit",
+    "start": "next start",
+    "test": "jest",
+    "test:coverage": "jest --coverage --coverageReporters json-summary",
+    "test:e2e": "docker-compose -f docker-compose.e2e.yaml up --exit-code-from cypress",
+    "test:e2e:live": "docker-compose -f docker-compose.e2e.yaml up --exit-code-from cypress --no-deps --build cypress"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.16.5",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@telus-uds/ds-allium": "^1.4.0",
+    "@telus-uds/palette-allium": "^2.0.0",
+    "@telus/alloy-analytics": "^2.5.1",
+    "@telus/analytics-scripts": "^2.1.1",
+    "@telus/next-global-elements": "^1.11.0",
+    "@telus/next-locale-middleware": "^1.15.0",
+    "@telus/next-styled-base": "^1.10.2",
+    "@telus/risk-engine-cov": "^1.0.5",
+    "@telus/web-app-core": "^1.12.0",
+    "axios": "^0.27.2",
+    "next": "^12.0.9",
+    "next-redux-wrapper": "^7.0.5",
+    "next-seo": "^4.28.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native-web": "^0.17.0",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@telus/eslint-config-wask": "^1.10.2",
+    "@telus/jest-config-next": "^1.13.0",
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "cypress": "9.5.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.4.3"
+  },
+  "riskEngineCov": {
+    "covScript": "npm run test:coverage"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "header": {
+    "html":
+      "<header>Mock Global Elements Header</header>",
+    "content": {},
+    "style": "",
+    "styleElements": [
+      {
+        "props": {
+          "data-styled": "",
+          "data-styled-version": "5.2.3",
+          "dangerouslySetInnerHTML": {"__html": ""}
+        }
+      }
+    ]
+  },
+   "footer": {
+    "html":
+      "<footer>Mock Global Elements Footer</footer>",
+    "content": {},
+    "style": "",
+    "styleElements": [
+      {
+        "props": {
+          "data-styled": "",
+          "data-styled-version": "5.2.3",
+          "dangerouslySetInnerHTML": {"__html": ""}
+        }
+      }
+    ]
+  },
+  "js": ""
+}

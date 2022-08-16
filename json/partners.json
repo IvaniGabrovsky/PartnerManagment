@@ -1,0 +1,1872 @@
+[
+    {
+        "id": 1534,
+        "partnerUUId": "7f14ee86-042d-4115-931d-c1c7bf95f05f",
+        "name": "Kontigoo2",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Kontigoo2",
+                "timePeriod": {
+                    "startTs": "2020-11-09 17:31:49.906",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "5",
+            "partnerStatusDescTxt": "On-boarding with Settlement",
+            "timePeriod": {
+                "startTs": "2020-11-09 17:31:49.906",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 4000,
+        "partnerUUId": "7ad1ba7b-c764-434b-a243-075171f6d568",
+        "name": "Joe Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TRACY",
+                "timePeriod": {
+                    "startTs": "2022-06-25 22:40:06.502",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-06-25 22:40:06.502",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 9023,
+        "partnerUUId": "9fed12c2-c3d3-4701-88d5-699250a14931",
+        "name": "Ko Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TRACY",
+                "timePeriod": {
+                    "startTs": "2022-08-09 21:40:41.727",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-08-09 21:40:41.729",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 1094,
+        "partnerUUId": "93fb3e57-b69a-425f-81b3-9ba438463c4d",
+        "name": "KContigo1",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "KContigo1",
+                "timePeriod": {
+                    "startTs": "2020-11-12 14:30:56.234",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2020-11-12 14:30:56.234",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 31325,
+        "partnerUUId": "196d6d6c-2a94-41d6-a2df-eb021f3b27f5",
+        "name": "Peter Yuan 1",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "31325",
+                "timePeriod": {
+                    "startTs": "2021-07-21 05:06:11.503",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2021-08-06 19:18:49.834",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 1000,
+        "partnerUUId": "5b5e78e8-c2cb-4b24-8d4d-09828e769e78",
+        "name": "Bob Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TRACY",
+                "timePeriod": {
+                    "startTs": "2022-06-25 21:36:45.633",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-06-25 21:36:45.633",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 15,
+        "partnerUUId": "5cce6dd0-af27-11dc-a172-00003ba5067a",
+        "name": "QA by Clara company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "SDFTEST11'",
+                "timePeriod": {
+                    "startTs": "2008-03-05 22:23:11.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2009-02-24 20:46:02.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 139,
+        "partnerUUId": "329914d0-3aaa-11e1-b90c-00144f7e5bb4",
+        "name": "navdeepkaur",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "NAVDEEPKAUR",
+                "timePeriod": {
+                    "startTs": "2012-01-09 10:16:59.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2012-06-27 16:55:05.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 141,
+        "partnerUUId": "a451ca20-4768-11e1-8ff9-000144f6f274",
+        "name": "Tracy Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TRACY",
+                "timePeriod": {
+                    "startTs": "2012-01-25 15:27:47.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2012-02-03 15:38:04.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 162,
+        "partnerUUId": "209764e0-b9d9-11e1-a481-00144f7e5bb4",
+        "name": "rajyalakshmi C",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-06-19 06:45:32.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2012-06-19 07:01:26.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 163,
+        "partnerUUId": "3ff91f50-c149-11e1-9518-000144f6f274",
+        "name": "Telus",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-06-28 17:56:58.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-06-28 17:56:58.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 179,
+        "partnerUUId": "0fa7ff60-cff9-11e1-8e4a-000144f6f274",
+        "name": "QA Pradeep",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "SHARIFFTEST",
+                "timePeriod": {
+                    "startTs": "2012-07-17 10:25:59.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2012-07-19 10:22:04.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 49,
+        "partnerUUId": "83347670-c937-11dc-a391-00003ba504ae",
+        "name": "TestCompany",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TEST_COMPANY",
+                "timePeriod": {
+                    "startTs": "2008-02-02 23:21:18.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-02-02 23:21:44.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 79,
+        "partnerUUId": "1f74ff70-c61f-11dd-98d8-000144f6f274",
+        "name": "renesdf1",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "RENESDF1",
+                "timePeriod": {
+                    "startTs": "2008-12-09 18:40:38.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2009-01-30 16:11:05.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 119,
+        "partnerUUId": "32a88ad0-fe75-11e0-bfba-00144f7e5bb4",
+        "name": "M2MSierra",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2011-10-24 20:18:55.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2011-10-24 20:18:55.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 146,
+        "partnerUUId": "03298230-623b-11e1-ae58-000144f6f274",
+        "name": "testteluspre3",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-02-28 18:36:56.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-02-28 18:36:56.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 142,
+        "partnerUUId": "927d48c0-4924-11e1-8ff9-000144f6f274",
+        "name": "Messaging Inc.",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "PDMESSAGING",
+                "timePeriod": {
+                    "startTs": "2012-01-27 20:26:54.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2012-02-03 23:04:32.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 145,
+        "partnerUUId": "e8b13540-6232-11e1-b2d3-00144f7e5bb4",
+        "name": "test",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-02-28 17:40:09.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-02-28 17:40:09.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 159,
+        "partnerUUId": "0b6e3190-a97e-11e1-ba0f-000144f6f274",
+        "name": "Vidhya Corp.",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-05-29 11:14:25.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-05-29 11:14:25.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 199,
+        "partnerUUId": "5fb73e90-1656-11e3-ac80-000144fdb2e6",
+        "name": "Pouyan Inc",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "POURI",
+                "timePeriod": {
+                    "startTs": "2013-09-05 18:14:02.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2013-09-05 19:58:10.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 7,
+        "partnerUUId": "f5fd1040-ad94-11dc-b812-00003ba5067a",
+        "name": "QA LTD",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "'QA LTD'",
+                "timePeriod": {
+                    "startTs": "2008-01-04 22:50:32.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2007-12-18 19:00:22.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 38,
+        "partnerUUId": "8e1610f0-c390-11dc-8a02-00003ba504ae",
+        "name": "Partner 1",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "mcube",
+                "timePeriod": {
+                    "startTs": "2008-01-15 18:18:04.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-15 18:13:01.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 39,
+        "partnerUUId": "8f82b3c0-c3a5-11dc-8451-00003ba5067a",
+        "name": "Partner 2",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Sharprobot",
+                "timePeriod": {
+                    "startTs": "2008-01-15 20:20:28.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-15 20:13:31.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 40,
+        "partnerUUId": "a0e26010-c3a6-11dc-b8e5-00003ba5067a",
+        "name": "Partner3",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Airgames",
+                "timePeriod": {
+                    "startTs": "2008-01-15 21:02:07.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-15 20:53:47.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 41,
+        "partnerUUId": "5c8a8950-c3a7-11dc-88fd-00003ba504ae",
+        "name": "Partner4",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "IDETIC",
+                "timePeriod": {
+                    "startTs": "2008-01-15 21:44:35.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-15 20:54:21.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 42,
+        "partnerUUId": "76952480-c3a8-11dc-88fd-00003ba504ae",
+        "name": "Partner6",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "MSPOT",
+                "timePeriod": {
+                    "startTs": "2008-01-15 22:18:04.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-15 20:54:47.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 44,
+        "partnerUUId": "85cf4e30-c3a8-11dc-b8e5-00003ba5067a",
+        "name": "Partner7",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "NIM",
+                "timePeriod": {
+                    "startTs": "2008-01-15 22:24:08.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-15 20:55:13.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 46,
+        "partnerUUId": "4c052bd0-c474-11dc-8774-00003ba5067a",
+        "name": "SP&E Ringtones",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "SPEsettle",
+                "timePeriod": {
+                    "startTs": "2008-01-16 21:00:31.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-01-17 16:00:45.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 5,
+        "partnerUUId": "7a96d9e0-aa7e-11dc-b812-00003ba5067a",
+        "name": "CathCompany5",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "rene",
+                "timePeriod": {
+                    "startTs": "2008-01-17 15:35:11.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2008-02-08 16:43:17.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 11,
+        "partnerUUId": "0ae75f50-ae59-11dc-89d7-00003ba504ae",
+        "name": "CathCompany6",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Rene",
+                "timePeriod": {
+                    "startTs": "2008-01-17 15:36:02.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2007-12-19 17:42:06.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 34,
+        "partnerUUId": "fb6ccb40-bfb1-11dc-bde2-00003ba504ae",
+        "name": "sdftest0030",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "SDFTEST0030",
+                "timePeriod": {
+                    "startTs": "2008-02-08 16:07:07.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-01-21 21:25:22.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 43,
+        "partnerUUId": "e272ab00-c3a8-11dc-b8e5-00003ba5067a",
+        "name": "rene co 24",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "RENE_CO_24",
+                "timePeriod": {
+                    "startTs": "2008-02-08 16:08:56.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-02-08 16:42:04.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 4,
+        "partnerUUId": "07eca8f0-aa53-11dc-843a-00003ba504ae",
+        "name": "CathCompany3",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2007-12-14 18:18:06.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 6,
+        "partnerUUId": "61ad7f30-ad88-11dc-b812-00003ba5067a",
+        "name": "cathmaria22",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2007-12-18 19:30:01.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 8,
+        "partnerUUId": "56f96d50-ad9d-11dc-843a-00003ba504ae",
+        "name": "cathcompany5",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2007-12-18 19:29:07.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 9,
+        "partnerUUId": "f87d8610-ae43-11dc-a172-00003ba5067a",
+        "name": "SDFTest2",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2007-12-19 15:50:16.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 10,
+        "partnerUUId": "35edb6e0-ae45-11dc-89d7-00003ba504ae",
+        "name": "Touch1",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-01-07 19:35:56.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 12,
+        "partnerUUId": "be2d4c60-ae62-11dc-89d7-00003ba504ae",
+        "name": "SDFTest3",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2007-12-19 18:53:43.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 14,
+        "partnerUUId": "314485d0-af24-11dc-89d7-00003ba504ae",
+        "name": "rene co 22",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-01-02 21:10:34.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 16,
+        "partnerUUId": "fe081f10-af28-11dc-a172-00003ba5067a",
+        "name": "Second company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "1",
+            "partnerStatusDescTxt": "Pre-Registration",
+            "timePeriod": {
+                "startTs": "2007-12-20 18:28:45.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 17,
+        "partnerUUId": "370056e0-b24c-11dc-b132-00003ba504ae",
+        "name": "myTestCompany",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2007-12-24 18:19:36.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 18,
+        "partnerUUId": "5f82dd30-b24d-11dc-b132-00003ba504ae",
+        "name": "sdftest5MyCompanyName",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2007-12-24 20:44:51.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 19,
+        "partnerUUId": "7a7772c0-b489-11dc-89a3-00003ba5067a",
+        "name": "SdfTest6",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2008-01-05 14:56:10.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 20,
+        "partnerUUId": "75f20d80-b490-11dc-b132-00003ba504ae",
+        "name": "SdfTest7",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2007-12-28 16:23:48.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 21,
+        "partnerUUId": "511d6340-b4ab-11dc-b132-00003ba504ae",
+        "name": "QA Partner T3 company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2007-12-27 19:18:39.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 22,
+        "partnerUUId": "704cc080-b951-11dc-9e98-00003ba5067a",
+        "name": "SdfTest8",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2008-01-03 19:28:25.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 23,
+        "partnerUUId": "a236e540-b96e-11dc-b17f-00003ba504ae",
+        "name": "cathmaria40",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "1",
+            "partnerStatusDescTxt": "Pre-Registration",
+            "timePeriod": {
+                "startTs": "2008-01-02 20:37:55.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 24,
+        "partnerUUId": "ab4cfb40-badd-11dc-b4a3-00003ba5067a",
+        "name": "SdfTest9",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2008-01-04 16:09:47.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 25,
+        "partnerUUId": "01ae1d40-bb09-11dc-b4a3-00003ba5067a",
+        "name": "SdfTest10",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-07 20:37:17.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 26,
+        "partnerUUId": "e1aa1a70-bb0e-11dc-83fb-00003ba504ae",
+        "name": "Supper 7",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-04 22:19:03.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 32,
+        "partnerUUId": "1aa92cb0-bb98-11dc-8de1-00003ba5067a",
+        "name": "SdfTest11'",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-01-05 14:25:57.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 33,
+        "partnerUUId": "f52c8c00-bb99-11dc-bde2-00003ba504ae",
+        "name": "StarHome",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-01-05 18:37:03.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 35,
+        "partnerUUId": "a4f7f3c0-c2b3-11dc-8bd1-00003ba5067a",
+        "name": "SdfTest12",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-01-14 15:18:27.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 37,
+        "partnerUUId": "0563f7b0-c2bc-11dc-8bd1-00003ba5067a",
+        "name": "SdfTest13",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-01-14 16:28:12.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 45,
+        "partnerUUId": "1a391470-c3a9-11dc-88fd-00003ba504ae",
+        "name": "Partner5",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-01-21 21:28:23.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 47,
+        "partnerUUId": "98ce8b40-c83f-11dc-bcc2-00003ba5067a",
+        "name": "testCompany",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-21 16:53:30.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 48,
+        "partnerUUId": "edb94130-c92b-11dc-86c3-00003ba5067a",
+        "name": "Demo One",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-01-22 21:07:31.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 55,
+        "partnerUUId": "71a9f970-d8b4-11dc-ae0e-00003ba5067a",
+        "name": "qa1_ncfrancis",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-02-11 15:32:21.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 56,
+        "partnerUUId": "dc4d51f0-e3db-11dc-b41f-00003ba5067a",
+        "name": "qancfrancis3",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-02-25 20:00:10.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 57,
+        "partnerUUId": "70cddfe0-2ceb-11dd-aba7-00003ba504ae",
+        "name": "Maghna",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-05-28 19:26:48.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 58,
+        "partnerUUId": "c9527ac0-2ced-11dd-aba7-00003ba504ae",
+        "name": "telus",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-05-28 19:49:09.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 59,
+        "partnerUUId": "3b26d4e0-2e68-11dd-95d5-00003ba504ae",
+        "name": "Telus",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-05-30 16:52:37.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 60,
+        "partnerUUId": "ae9916f0-2e76-11dd-ae04-00003ba5067a",
+        "name": "Arunodaya dance academy",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-05-30 18:43:31.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 61,
+        "partnerUUId": "e29dddd0-3242-11dd-ae04-00003ba5067a",
+        "name": "saree centre",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-06-04 14:40:28.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 62,
+        "partnerUUId": "ff591ad0-5294-11dd-a36a-00003ba504ae",
+        "name": "telus",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-07-15 17:45:25.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 63,
+        "partnerUUId": "b2070da0-63b5-11dd-a0bd-00003ba50679",
+        "name": "Tracy T-F",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2009-01-12 17:17:09.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 64,
+        "partnerUUId": "5a3c2300-63f9-11dd-a0bd-00003ba50679",
+        "name": "duffenterprises",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "2",
+            "partnerStatusDescTxt": "Registration",
+            "timePeriod": {
+                "startTs": "2008-08-06 20:56:03.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 77,
+        "partnerUUId": "aba67b60-c546-11dd-9fe3-00144f7e5bb4",
+        "name": "tqatest2",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-12-08 16:47:13.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 78,
+        "partnerUUId": "3dadd5b0-c549-11dd-9fe3-00144f7e5bb4",
+        "name": "qatest1",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2008-12-08 17:00:22.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 81,
+        "partnerUUId": "29b76c30-dda2-11dd-8da2-000144f6f274",
+        "name": "cathmr2",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2009-01-08 16:49:17.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 98,
+        "partnerUUId": "3a63cf70-04f2-11de-acef-00144f7e5bb4",
+        "name": "2Testing Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "2TESTING",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2009-02-27 17:39:49.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 100,
+        "partnerUUId": "0cc29030-49fb-11de-97f1-000144f6f274",
+        "name": "Pratik's Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2010-01-27 14:39:01.840",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2009-05-26 17:36:53.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 143,
+        "partnerUUId": "953278c0-4b08-11e1-8ff9-000144f6f274",
+        "name": "BusinessP",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-01-30 06:18:38.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "8",
+            "partnerStatusDescTxt": "Rejected",
+            "timePeriod": {
+                "startTs": "2012-02-01 07:59:04.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 160,
+        "partnerUUId": "dbed5940-b6d5-11e1-ac80-000144f6f274",
+        "name": "Bhushan Corp.",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-06-15 10:40:14.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-06-15 10:40:14.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 161,
+        "partnerUUId": "7e71f220-b929-11e1-ac80-000144f6f274",
+        "name": "Swatee",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-06-18 10:25:41.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-06-18 10:25:41.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 180,
+        "partnerUUId": "dc69a710-eead-11e1-925d-00144f7e5bb4",
+        "name": "EnStream",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "ENSTREAM",
+                "timePeriod": {
+                    "startTs": "2012-08-25 12:17:38.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2012-08-29 17:28:18.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 13,
+        "partnerUUId": "99fa6590-ae6b-11dc-89d7-00003ba504ae",
+        "name": "Chip",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "RADU",
+                "timePeriod": {
+                    "startTs": "2008-11-27 19:24:54.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2008-12-05 18:23:32.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 80,
+        "partnerUUId": "12262ed0-cd21-11dd-b48f-00144f7e5bb4",
+        "name": "Test",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TEST",
+                "timePeriod": {
+                    "startTs": "2009-02-03 18:51:33.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "3",
+            "partnerStatusDescTxt": "Evaluation",
+            "timePeriod": {
+                "startTs": "2009-02-03 19:03:39.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 97,
+        "partnerUUId": "56923050-f792-11dd-89a0-00144f7e5bb4",
+        "name": "253Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "ABC",
+                "timePeriod": {
+                    "startTs": "2009-03-02 21:16:16.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2010-03-25 20:41:09.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 99,
+        "partnerUUId": "252ea210-399f-11de-82d5-00144f7e5bb4",
+        "name": "w",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "PT148EZ",
+                "timePeriod": {
+                    "startTs": "2009-05-05 18:30:46.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2009-05-05 18:31:06.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 140,
+        "partnerUUId": "6bd539d0-3dd5-11e1-97a9-00144f7e5bb4",
+        "name": "testbest",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "chartest",
+                "timePeriod": {
+                    "startTs": "2012-01-13 11:09:41.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2012-01-25 21:58:13.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 144,
+        "partnerUUId": "cdfd9ec0-4e7b-11e1-b968-000144f6f274",
+        "name": "Alcatel-Lucent",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "Not Available",
+                "timePeriod": {
+                    "startTs": "2012-02-03 18:52:58.000",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "4",
+            "partnerStatusDescTxt": "On-boarding",
+            "timePeriod": {
+                "startTs": "2012-02-03 18:52:58.000",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 34017,
+        "partnerUUId": "9c854121-e4bc-450b-9b7c-48600aacc9a1",
+        "name": "settlementTest",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "11111111111",
+                "timePeriod": {
+                    "startTs": "2022-03-10 22:32:58.151",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-03-10 22:33:51.873",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 33984,
+        "partnerUUId": "b1639918-74c3-4688-ae1a-9f5ea30942f1",
+        "name": "API_Partner_manageSubscription",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "123213",
+                "timePeriod": {
+                    "startTs": "2022-03-14 19:54:08.467",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-03-14 19:54:08.467",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    },
+    {
+        "id": 9024,
+        "partnerUUId": "e5fdec91-4f20-43ab-922f-47e48e043959",
+        "name": "Ko Company",
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "uniqueName": "TRACY",
+                "timePeriod": {
+                    "startTs": "2022-08-09 21:51:39.082",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-08-09 21:51:39.083",
+                "endTs": "9999-12-31 05:00:00.000"
+            }
+        }
+    }
+]

@@ -1,0 +1,28 @@
+riskThreshold: 30
+automatedReleaseApproved: false
+useGithubEvents: true
+# team:
+#   role: < Enablement || Outcome >
+#   name: < team-name >
+ignoredFiles:
+  - 'package-lock.json'
+riskInputs:
+  - name: gitBranchProtection
+  - name: innersource
+  - name: linesChanged
+  - name: semanticCommit
+  - name: changedFiles
+    matchChangesGlobPatterns:
+      '**/*.*': 'low'
+      '**/*.js': 'medium'
+      'src/pages/_@(middleware|app|document).js': 'high'
+      'src/components/@(App|Document)/**': 'high'
+      'next.config.mjs': 'high'
+      '.github/**': 'critical'
+      'openshift/**': 'critical'
+      'Dockerfile': 'critical'
+    requireChangesGlobPatterns:
+      '**/*.@(test|spec).*': 'medium'
+  - name: prDescription
+  - name: testCoverage
+  - name: webStarterKitHealth

@@ -1,0 +1,117 @@
+apiVersion: template.openshift.io/v1
+kind: Template
+metadata:
+  name: deploy-template
+parameters:
+- name: APP_LABEL
+  description: Value for metadata.labels.app
+  required: true
+- name: REPO_NAME
+  description: Name of git repository
+  required: true
+- name: VERSION
+  description: The Git SHA
+  value: 'N/A'
+- name: ENVIRONMENT
+  description: The environment name
+  value: staging
+- name: DOCKER_REGISTRY
+  description: Docker App image to deploy
+- name: NUM_REPLICAS
+  description: How many replicas of the pod to deploy?
+  value: '1'
+- name: MAX_REPLICAS
+  description: Limit on number of replicas to create
+  value: '5'
+objects:
+  # Configure app deployment
+- apiVersion: apps.openshift.io/v1
+  kind: DeploymentConfig
+  metadata:
+    name: ${REPO_NAME}-${ENVIRONMENT}
+    labels:
+      app: ${APP_LABEL}
+      version: ${VERSION}
+      environment: ${ENVIRONMENT}
+  spec:
+    replicas: ${{NUM_REPLICAS}}
+    template:
+      metadata:
+        labels:
+          deploymentconfig: ${REPO_NAME}-${ENVIRONMENT}
+      spec:
+        containers:
+          - name: ${REPO_NAME}-${ENVIRONMENT}
+            image: ${DOCKER_REGISTRY}
+            imagePullPolicy: Always
+            ports:
+              - containerPort: 4000
+            livenessProbe:
+              tcpSocket:
+                port: 4000
+              initialDelaySeconds: 10
+              timeoutSeconds: 1
+            readinessProbe:
+              httpGet:
+                path: /
+                port: 4000
+              initialDelaySeconds: 5
+              timeoutSeconds: 1
+            resources:
+              requests:
+                cpu: 20m
+                memory: 128Mi
+              limits:
+                cpu: 1000m
+                memory: 256Mi
+# Configure app load balancing
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: ${REPO_NAME}-${ENVIRONMENT}
+    labels:
+      app: ${APP_LABEL}
+      environment: ${ENVIRONMENT}
+  spec:
+    ports:
+      - name: app
+        port: 4000
+        targetPort: 4000
+    selector:
+      deploymentconfig: ${REPO_NAME}-${ENVIRONMENT}
+# Configure how app is exposed
+- apiVersion: route.openshift.io/v1
+  kind: Route
+  metadata:
+    name: ${REPO_NAME}-${ENVIRONMENT}
+    labels:
+      app: ${APP_LABEL}
+      environment: ${ENVIRONMENT}
+    annotations:
+      haproxy.router.openshift.io/disable_cookies: 'true'
+  spec:
+    to:
+      kind: Service
+      name: ${REPO_NAME}-${ENVIRONMENT}
+      weight: 100
+    port:
+      targetPort: 4000
+    tls:
+      termination: edge
+      insecureEdgeTerminationPolicy: Redirect
+# Configure app scaling
+- apiVersion: autoscaling/v1
+  kind: HorizontalPodAutoscaler
+  metadata:
+    name: ${REPO_NAME}-${ENVIRONMENT}
+    labels:
+      app: ${APP_LABEL}
+      environment: ${ENVIRONMENT}
+  spec:
+    scaleTargetRef:
+      apiVersion: apps.openshift.io/v1
+      kind: DeploymentConfig
+      name: ${REPO_NAME}-${ENVIRONMENT}
+    minReplicas: ${{NUM_REPLICAS}}
+    maxReplicas: ${{MAX_REPLICAS}}
+    targetCPUUtilizationPercentage: 80

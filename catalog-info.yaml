@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: partner-management
+  description: A Web App Start Kit Next.Js app created with @telus/create-web-app.
+  tags:
+    - digital
+    - node
+    - wask
+spec:
+  type: service
+  lifecycle: experimental
