@@ -40,55 +40,33 @@ const Info = () => {
     <main>
         <Callout rounded>
           <Card>
+            <Typography variant={{ size: 'h1' }}>Partners Information</Typography>
+            <Spacer space={6} />
             {/* <Spinner label="Fetching partners" show={loading}> */}
               <FlexGrid>
               <FlexGrid.Row>
-                <FlexGrid.Col xs={4}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                      <Typography>ID: </Typography>
+                <FlexGrid.Col xs={3}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                      <Typography variant={{ background: 'light' }}>ID: </Typography>
                       <Typography>1234</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={8}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    
+                <FlexGrid.Col xs={5}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                      <Typography variant={{ background: 'light' }}>Name:</Typography>
+                      <Typography>Ivan Gabrovsky</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-              </FlexGrid.Row>
-              <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>Name: </Typography>
+                <FlexGrid.Col xs={4}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                      <Typography variant={{ background: 'light' }}>Unique name:</Typography>
+                      <Typography>Ivan</Typography>
                     </StackView>
-
-                  </Box>
-                </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>Ivan Gabrovsky </Typography>
-                    </StackView>
-                  </Box>
-                </FlexGrid.Col>
-              </FlexGrid.Row>
-              <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                  <StackView>
-                    <Typography>Unique name:</Typography>
-                  </StackView>
-                  </Box>
-                </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                  <StackView>
-                    <Typography>Ivan</Typography>
-                  </StackView>
                   </Box>
                 </FlexGrid.Col>
               </FlexGrid.Row>
