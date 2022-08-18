@@ -34,7 +34,7 @@ const Home = () => {
         <Callout rounded>
           <Card>
             <Typography variant={{ size: 'h1' }}>Partners</Typography>
-            <Spacer space={2} />
+            <Spacer space={6} />
             <Spinner label="Fetching partners" show={loading}>
               <Table>
                 <Table.Header>

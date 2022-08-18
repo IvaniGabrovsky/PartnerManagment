@@ -10,7 +10,7 @@ export const extractData = (filePath) => {
   return data
 }
 
-export default async function handler(req, res) {
+export default async function handler (req, res) {
   const filePath = filePathBuilder()
   const data = extractData(filePath)
   setTimeout(() => {
