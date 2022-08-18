@@ -1,19 +1,18 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import { TextInput } from '@telus-uds/ds-allium'
 import {
-  Callout, Card, Typography, Spacer, Spinner, FlexGrid, Box, StackView
+  Callout, Card, Typography, Spacer, Spinner, FlexGrid, Box, StackView, TextInput
 } from '@telus-uds/ds-allium'
 import { NextSeo } from 'next-seo'
 import seoConfig from './seo.config'
 import axios from 'axios'
-import { TextInput } from '@telus-uds/ds-allium'
+
 const PARTNER_API_PATH = 'http://localhost:3000/api/partner'
 const locale = 'en-CA'
 const options = { year: 'numeric', month: 'short', day: 'numeric' }
 
 const Edit = () => {
-  const [partner, setPartner] = useState({})
+  const [partner, setPartner] = useState({ name: ''})
   const [loading, setLoading] = useState(false)
 
   const router = useRouter()
@@ -37,6 +36,10 @@ const Edit = () => {
 
     if (id) fetchData()
   },[id])
+
+  const changeField = (e) => {
+    console.log(e)
+}
   return (
   <>
     <NextSeo {...seoConfig} />
@@ -60,10 +63,11 @@ const Edit = () => {
                   <Box space={2}>
                     <StackView space={3} direction="row">
                       <Typography variant={{ background: 'light', bold: true }}>Name:</Typography>
-                      {/* <TextInput
+                      <TextInput
                         label="Name:"
-                        value={partner?.adjustmentCharacteristics?.settlementAlias?.name}
-                        /> */}
+                        value={partner?.name}
+                        onChange={changeField}
+                        />
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
