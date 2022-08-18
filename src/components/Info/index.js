@@ -8,6 +8,8 @@ import seoConfig from './seo.config'
 import axios from 'axios'
 
 const PARTNER_API_PATH = 'http://localhost:3000/api/partner'
+const locale = 'en-CA'
+const options = { year: 'numeric', month: 'short', day: 'numeric' }
 
 const Info = () => {
   const [partner, setPartner] = useState({})
@@ -48,24 +50,24 @@ const Info = () => {
                 <FlexGrid.Col xs={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>ID: </Typography>
-                      <Typography>1234</Typography>
+                      <Typography variant={{ background: 'light', bold: true }}>ID: </Typography>
+                      <Typography>{partner.id}</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                 <FlexGrid.Col xs={5}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>Name:</Typography>
-                      <Typography>Ivan Gabrovsky</Typography>
+                      <Typography variant={{ background: 'light', bold: true }}>Name:</Typography>
+                      <Typography>{partner.name}</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                 <FlexGrid.Col xs={4}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>Unique name:</Typography>
-                      <Typography>Ivan</Typography>
+                      <Typography variant={{ background: 'light', bold: true }}>Unique name:</Typography>
+                      <Typography>{partner?.adjustmentCharacteristics?.settlementAlias?.uniqueName}</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
@@ -74,59 +76,57 @@ const Info = () => {
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Partner agreement start:</Typography>
-                    <Typography>June 18, 2022</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Partner agreement start:</Typography>
+                    <Typography>{new Date(partner?.status?.timePeriod?.startTs).toLocaleDateString(locale, options)}</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Partner agreement end:</Typography>
-                    <Typography>June 18, 2026</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Partner agreement end:</Typography>
+                    <Typography>{new Date(partner?.status?.timePeriod?.endTs).toLocaleDateString(locale, options)}</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Partner status:</Typography>
-                    <Typography>On-boarding with Settlement</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Partner status:</Typography>
+                    <Typography>{partner?.status?.partnerStatusDescTxt}</Typography>
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Phone number:</Typography>
-                    <Typography>6487658396</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Phone number:</Typography>
+                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactTelNumber}</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Address:</Typography>
-                    <Typography>19 Eagle Peak Dr Richmond Hill, ON L4S 2W4, Canada</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Address:</Typography>
+                    <Typography>{partner?.organizationContactAddress?.contactAddressCharacteristic?.streetName}, {partner?.organizationContactAddress?.contactAddressCharacteristic?.countryCd}</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={6} direction="row">
+                    <Typography variant={{ background: 'light', bold: true }}>Email:</Typography>
+                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactEmail}</Typography>
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Email:</Typography>
-                    <Typography>tracy.twitchell-fung@telus.com</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Purpose:</Typography>
+                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactPurpose?.pcPurposeTypeTxt}</Typography>
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Purpose:</Typography>
-                    <Typography>Bussiness</Typography>
+                    <Typography variant={{ background: 'light', bold: true }}>Website:</Typography>
+                    <Typography>{partner?.partyCharacteristic?.orgWebsiteUrl}</Typography>
                     </StackView>
                   </Box>
-                  <Box space={2}>
-                    <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light' }}>Website:</Typography>
-                    <Typography>http://nowebsite.com</Typography>
-                    </StackView>
-                  </Box>
-                </FlexGrid.Col>
               </FlexGrid.Row>
             </FlexGrid>
             </Spinner>
