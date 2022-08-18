@@ -44,65 +44,91 @@ const Info = () => {
             <Spacer space={6} />
             <Spinner label={`Fetching partner with id: ${id}`} show={loading}>
               <FlexGrid>
-                <FlexGrid.Row>
-                  <FlexGrid.Col xs={3}>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                        <Typography variant={{ background: 'light' }}>ID: </Typography>
-                        <Typography>{partner.id}</Typography>
-                      </StackView>
-                    </Box>
-                  </FlexGrid.Col>
-                  <FlexGrid.Col xs={5}>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                        <Typography variant={{ background: 'light' }}>Name:</Typography>
-                        <Typography>Ivan Gabrovsky</Typography>
-                      </StackView>
-                    </Box>
-                  </FlexGrid.Col>
-                  <FlexGrid.Col xs={4}>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                        <Typography variant={{ background: 'light' }}>Unique name:</Typography>
-                        <Typography>Ivan</Typography>
-                      </StackView>
-                    </Box>
-                  </FlexGrid.Col>
-                </FlexGrid.Row>
-                <FlexGrid.Row>
-                  <FlexGrid.Col xs={6}>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>Partner agreement start:</Typography>
-                      <Typography>June 18, 2022</Typography>
-                      </StackView>
-                    </Box>
-                  </FlexGrid.Col>
-                  <FlexGrid.Col xs={6}>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>Partner agreement end:</Typography>
-                      <Typography>June 18, 2026</Typography>
-                      </StackView>
-                    </Box>
-                  </FlexGrid.Col>
-                  <FlexGrid.Col xs={6}>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>Partner status:</Typography>
-                      <Typography>On-boarding with Settlement</Typography>
-                      </StackView>
-                    </Box>
-                    <Box space={2}>
-                      <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light' }}>Phone number:</Typography>
-                      <Typography>6487658396</Typography>
-                      </StackView>
-                    </Box>
-                  </FlexGrid.Col>
-                </FlexGrid.Row>
-              </FlexGrid>
+              <FlexGrid.Row>
+                <FlexGrid.Col xs={3}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                      <Typography variant={{ background: 'light' }}>ID: </Typography>
+                      <Typography>1234</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={5}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                      <Typography variant={{ background: 'light' }}>Name:</Typography>
+                      <Typography>Ivan Gabrovsky</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={4}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                      <Typography variant={{ background: 'light' }}>Unique name:</Typography>
+                      <Typography>Ivan</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+              </FlexGrid.Row>
+              <FlexGrid.Row>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Partner agreement start:</Typography>
+                    <Typography>June 18, 2022</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Partner agreement end:</Typography>
+                    <Typography>June 18, 2026</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Partner status:</Typography>
+                    <Typography>On-boarding with Settlement</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Phone number:</Typography>
+                    <Typography>6487658396</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Address:</Typography>
+                    <Typography>19 Eagle Peak Dr Richmond Hill, ON L4S 2W4, Canada</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Email:</Typography>
+                    <Typography>tracy.twitchell-fung@telus.com</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Purpose:</Typography>
+                    <Typography>Bussiness</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Website:</Typography>
+                    <Typography>http://nowebsite.com</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+              </FlexGrid.Row>
+            </FlexGrid>
             </Spinner>
         </Card>
       </Callout>
