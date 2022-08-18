@@ -71,49 +71,33 @@ const Info = () => {
                 </FlexGrid.Col>
               </FlexGrid.Row>
               <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>Partner status:</Typography>
-                    </StackView>
-                  </Box>
-                </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>On-boarding with Settlement</Typography>
-                    </StackView>
-                  </Box>
-                </FlexGrid.Col>
-              </FlexGrid.Row>
-              <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>Partner agreement start:</Typography>
-                    </StackView>
-                  </Box>
-                </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Partner agreement start:</Typography>
                     <Typography>June 18, 2022</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-              </FlexGrid.Row>
-              <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>Partner agreement end:</Typography>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Partner agreement end:</Typography>
+                    <Typography>June 18, 2026</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
-                  <Box variant={{ background: 'light' }} space={2}>
-                    <StackView>
-                    <Typography>June 18, 2026</Typography>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Partner status:</Typography>
+                    <Typography>On-boarding with Settlement</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Phone number:</Typography>
+                    <Typography>6487658396</Typography>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>

@@ -1,0 +1,1105 @@
+[
+    {
+        "id": 1534,
+        "partnerUUId": "7f14ee86-042d-4115-931d-c1c7bf95f05f",
+        "name": "Kontigoo2",
+        "applications": [],
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "settlementAliasId": 209,
+                "uniqueName": "Kontigoo2",
+                "settlementAliasTypeCd": "1",
+                "recordHistory": {
+                    "createUserId": "x216638",
+                    "createTs": "2020-11-09 17:31:49.906",
+                    "lastUpdatedUserId": "x216638",
+                    "lastUpdatedTs": "2020-11-09 17:31:49.906"
+                },
+                "timePeriod": {
+                    "startTs": "2020-11-09 17:31:49.906",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "organizationContactAddress": {
+            "organizationContactAddressID": 1534,
+            "contactAddressCharacteristic": {
+                "partnerContactAddrId": 1534,
+                "addressTypeCd": "1",
+                "unitNumber": "5",
+                "civicNumber": "6",
+                "streetName": "4968 Yonge St",
+                "streetTypeCd": "default",
+                "streetDirCd": "NE",
+                "municipalityName": "Toronto",
+                "provStateCd": "TX",
+                "postalZipCdTxt": "M2N 7G9",
+                "countryCd": "CAN",
+                "postboxNumber": "5",
+                "stationName": "default",
+                "stationTypeCd": "NA",
+                "stationQualifierName": "default",
+                "ruralRouteTypeCd": "NA",
+                "ruralRouteName": "NA",
+                "hmcsName": "defaut",
+                "fleetMailOfficeName": "default",
+                "careOfTxt": "default",
+                "additionalInfoOne": "default",
+                "additionalInfoTwo": "default",
+                "additionalInfoThree": "Texas",
+                "additionalInfoFour": "Canada",
+                "externalServiceAddressId": "default",
+                "emailAddress": "abc@gmail.com",
+                "mailingTypeCd": "M",
+                "addressMatchingStatCd": "V",
+                "validateAddressIndicator": "N",
+                "recordHistory": {
+                    "createUserId": "x216638",
+                    "createTs": "2020-11-09 17:31:49.906",
+                    "lastUpdatedUserId": "x216638",
+                    "lastUpdatedTs": "2020-11-09 17:31:49.906"
+                }
+            },
+            "organizationContact": [
+                {
+                    "contactId": 340,
+                    "contactFullName": "Cath",
+                    "contactTelNumber": "1111111111",
+                    "contactEmail": "rene.woon-fat@telus.com",
+                    "commentTxt": "default",
+                    "statusActiveCd": "1",
+                    "contactTitle": "PA",
+                    "contactMobileNumber": "1111111111",
+                    "contactFaxNumber": "1111111111",
+                    "contactPurpose": {
+                        "partnerContactId": 340,
+                        "pcPurposeTypeCd": "3",
+                        "pcPurposeTypeTxt": "TELUS Contact",
+                        "timePeriod": {
+                            "startTs": "2020-11-09 17:31:49.906",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "x216638",
+                            "createTs": "2020-11-09 17:31:49.906",
+                            "lastUpdatedUserId": "x216638",
+                            "lastUpdatedTs": "2020-11-09 17:31:49.906"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "x216638",
+                        "createTs": "2020-11-09 17:31:49.906",
+                        "lastUpdatedUserId": "x216638",
+                        "lastUpdatedTs": "2020-11-09 17:31:49.906"
+                    }
+                }
+            ]
+        },
+        "status": {
+            "partnerStatusCd": "5",
+            "partnerStatusDescTxt": "On-boarding with Settlement",
+            "timePeriod": {
+                "startTs": "2020-11-09 17:31:49.906",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "x216638",
+                "createTs": "2020-11-09 17:31:49.906",
+                "lastUpdatedUserId": "x216638",
+                "lastUpdatedTs": "2020-11-09 17:31:49.906"
+            }
+        },
+        "businessCharacteristic": {
+            "partnerBusinessTypeCd": "1",
+            "partnerBusinessTypeTxt": "Messaging Services",
+            "timePeriod": {
+                "startTs": "2020-11-09 17:31:49.906",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "x216638",
+                "createTs": "2020-11-09 17:31:49.906",
+                "lastUpdatedUserId": "x216638",
+                "lastUpdatedTs": "2020-11-09 17:31:49.906"
+            }
+        },
+        "partyCharacteristic": {
+            "organizationFRName": "default",
+            "certificateName": "default",
+            "busScopeCmtTxt": "Business Scope:",
+            "orgWebsiteUrl": "http://www.test.com",
+            "documentumUniqueShortName": "CathCompany3",
+            "orgSizeTypeCd": "4",
+            "orgSizeTypeTxt": "Greater than 1000",
+            "annualRevenueTypeCd": "2",
+            "yearOfOperationComment": "1",
+            "sapPartnerAcctNum": "default",
+            "langPrefCd": "EN",
+            "connectedCarrierServiceTxt": "Available Services and Connected Carriers:",
+            "timePeriod": {
+                "startTs": "2020-11-09 17:31:49.906",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "x216638",
+                "createTs": "2020-11-09 17:31:49.906",
+                "lastUpdatedUserId": "x216638",
+                "lastUpdatedTs": "2020-11-09 17:31:49.906"
+            }
+        },
+        "comment": {
+            "commentText": "this is a comment",
+            "srcTeamUserId": "rwoonfat",
+            "languagePrefCd": "EN",
+            "commentTypeCd": "1",
+            "timePeriod": {
+                "startTs": "2020-11-09 17:31:49.906",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "x216638",
+                "createTs": "2020-11-09 17:31:49.906",
+                "lastUpdatedUserId": "x216638",
+                "lastUpdatedTs": "2020-11-09 17:31:49.906"
+            }
+        },
+        "recordHistory": {
+            "createUserId": "x216638",
+            "createTs": "2020-11-09 17:31:49.905",
+            "lastUpdatedUserId": "x216638",
+            "lastUpdatedTs": "2020-11-09 17:31:49.905"
+        }
+    },
+    {
+        "id": 4000,
+        "partnerUUId": "7ad1ba7b-c764-434b-a243-075171f6d568",
+        "name": "Joe Company",
+        "applications": [
+            {
+                "applicationId": 996,
+                "description": "Joe Company",
+                "name": "Joe Company",
+                "typeCd": "9",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-06-25 22:40:06.502",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                },
+                "timePeriod": {
+                    "startTs": "2022-06-25 22:40:06.502",
+                    "endTs": "9999-12-31 05:00:00.000"
+                },
+                "statusCd": "5",
+                "statusDesc": "Production Live"
+            }
+        ],
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "settlementAliasId": 215,
+                "uniqueName": "TRACY",
+                "settlementAliasTypeCd": "1",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-06-25 22:40:06.502",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                },
+                "timePeriod": {
+                    "startTs": "2022-06-25 22:40:06.502",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "organizationContactAddress": {
+            "organizationContactAddressID": 4000,
+            "contactAddressCharacteristic": {
+                "partnerContactAddrId": 4000,
+                "addressTypeCd": "1",
+                "streetName": "5 Nahum Het Street, 3rd floor, Topaz Bui",
+                "streetTypeCd": "NA",
+                "streetDirCd": "NA",
+                "municipalityName": "Haifa",
+                "postalZipCdTxt": "31905",
+                "countryCd": "CAN",
+                "stationTypeCd": "NA",
+                "ruralRouteTypeCd": "NA",
+                "mailingTypeCd": "M",
+                "addressMatchingStatCd": "V",
+                "validateAddressIndicator": "N",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-06-25 22:40:06.502",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                }
+            },
+            "organizationContact": [
+                {
+                    "contactId": 348,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 348,
+                        "pcPurposeTypeCd": "1",
+                        "pcPurposeTypeTxt": "Business Contact",
+                        "timePeriod": {
+                            "startTs": "2022-06-25 22:40:06.502",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-06-25 22:40:06.502",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-06-25 22:40:06.502",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                    }
+                },
+                {
+                    "contactId": 349,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 349,
+                        "pcPurposeTypeCd": "2",
+                        "pcPurposeTypeTxt": "Product Contact",
+                        "timePeriod": {
+                            "startTs": "2022-06-25 22:40:06.502",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-06-25 22:40:06.502",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-06-25 22:40:06.502",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                    }
+                },
+                {
+                    "contactId": 350,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 350,
+                        "pcPurposeTypeCd": "3",
+                        "pcPurposeTypeTxt": "TELUS Contact",
+                        "timePeriod": {
+                            "startTs": "2022-06-25 22:40:06.502",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-06-25 22:40:06.502",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-06-25 22:40:06.502",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-06-25 22:40:06.502"
+                    }
+                }
+            ]
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-06-25 22:40:06.502",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-06-25 22:40:06.502",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-06-25 22:40:06.502"
+            }
+        },
+        "businessCharacteristic": {
+            "businessDescTxt": "Test",
+            "partnerBusinessTypeCd": "7",
+            "partnerBusinessTypeTxt": "Other",
+            "timePeriod": {
+                "startTs": "2022-06-25 22:40:06.502",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-06-25 22:40:06.502",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-06-25 22:40:06.502"
+            }
+        },
+        "partyCharacteristic": {
+            "busScopeCmtTxt": "This is a testing partner set up for Tracy's use.  Please don't update any information on this without letting me know.  Thanks.",
+            "orgWebsiteUrl": "http://nowebsite.com",
+            "documentumUniqueShortName": "Tracy Company-a451ca20-4768-11e1-8ff9-000144f6f274",
+            "orgSizeTypeCd": "1",
+            "orgSizeTypeTxt": "1-100",
+            "annualRevenueTypeCd": "1",
+            "yearOfOperationComment": "1",
+            "langPrefCd": "EN",
+            "timePeriod": {
+                "startTs": "2022-06-25 22:40:06.502",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-06-25 22:40:06.502",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-06-25 22:40:06.502"
+            }
+        },
+        "recordHistory": {
+            "createUserId": "PartnerPortal",
+            "createTs": "2022-06-25 22:40:06.502",
+            "lastUpdatedUserId": "PartnerPortal",
+            "lastUpdatedTs": "2022-06-25 22:40:06.502"
+        }
+    },
+    {
+        "id": 9023,
+        "partnerUUId": "9fed12c2-c3d3-4701-88d5-699250a14931",
+        "name": "Ko Company",
+        "applications": [
+            {
+                "applicationId": 997,
+                "description": "Ko Company",
+                "name": "Ko Company",
+                "typeCd": "9",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-08-09 21:40:41.729",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                },
+                "timePeriod": {
+                    "startTs": "2022-08-09 21:40:41.729",
+                    "endTs": "9999-12-31 05:00:00.000"
+                },
+                "statusCd": "5",
+                "statusDesc": "Production Live"
+            }
+        ],
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "settlementAliasId": 216,
+                "uniqueName": "TRACY",
+                "settlementAliasTypeCd": "1",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-08-09 21:40:41.727",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-08-09 21:40:41.727"
+                },
+                "timePeriod": {
+                    "startTs": "2022-08-09 21:40:41.727",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "organizationContactAddress": {
+            "organizationContactAddressID": 9023,
+            "contactAddressCharacteristic": {
+                "partnerContactAddrId": 9023,
+                "addressTypeCd": "1",
+                "streetName": "5 Nahum Het Street, 3rd floor, Topaz Bui",
+                "streetTypeCd": "NA",
+                "streetDirCd": "NA",
+                "municipalityName": "Haifa",
+                "postalZipCdTxt": "31905",
+                "countryCd": "CAN",
+                "stationTypeCd": "NA",
+                "ruralRouteTypeCd": "NA",
+                "mailingTypeCd": "M",
+                "addressMatchingStatCd": "V",
+                "validateAddressIndicator": "N",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-08-09 21:40:41.727",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-08-09 21:40:41.727"
+                }
+            },
+            "organizationContact": [
+                {
+                    "contactId": 351,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 351,
+                        "pcPurposeTypeCd": "1",
+                        "pcPurposeTypeTxt": "Business Contact",
+                        "timePeriod": {
+                            "startTs": "2022-08-09 21:40:41.729",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-08-09 21:40:41.729",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-08-09 21:40:41.729",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                    }
+                },
+                {
+                    "contactId": 352,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 352,
+                        "pcPurposeTypeCd": "2",
+                        "pcPurposeTypeTxt": "Product Contact",
+                        "timePeriod": {
+                            "startTs": "2022-08-09 21:40:41.729",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-08-09 21:40:41.729",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-08-09 21:40:41.729",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                    }
+                },
+                {
+                    "contactId": 353,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 353,
+                        "pcPurposeTypeCd": "3",
+                        "pcPurposeTypeTxt": "TELUS Contact",
+                        "timePeriod": {
+                            "startTs": "2022-08-09 21:40:41.729",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-08-09 21:40:41.729",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-08-09 21:40:41.729",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-08-09 21:40:41.729"
+                    }
+                }
+            ]
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-08-09 21:40:41.729",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-08-09 21:40:41.729",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-08-09 21:40:41.729"
+            }
+        },
+        "businessCharacteristic": {
+            "businessDescTxt": "Test",
+            "partnerBusinessTypeCd": "7",
+            "partnerBusinessTypeTxt": "Other",
+            "timePeriod": {
+                "startTs": "2022-08-09 21:40:41.727",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-08-09 21:40:41.727",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-08-09 21:40:41.727"
+            }
+        },
+        "partyCharacteristic": {
+            "busScopeCmtTxt": "This is a testing partner set up for Tracy's use.  Please don't update any information on this without letting me know.  Thanks.",
+            "orgWebsiteUrl": "http://nowebsite.com",
+            "documentumUniqueShortName": "Tracy Company-a451ca20-4768-11e1-8ff9-000144f6f274",
+            "orgSizeTypeCd": "1",
+            "orgSizeTypeTxt": "1-100",
+            "annualRevenueTypeCd": "1",
+            "yearOfOperationComment": "1",
+            "langPrefCd": "EN",
+            "timePeriod": {
+                "startTs": "2022-08-09 21:40:41.729",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-08-09 21:40:41.729",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-08-09 21:40:41.729"
+            }
+        },
+        "recordHistory": {
+            "createUserId": "PartnerPortal",
+            "createTs": "2022-08-09 21:40:41.727",
+            "lastUpdatedUserId": "PartnerPortal",
+            "lastUpdatedTs": "2022-08-09 21:40:41.727"
+        }
+    },
+    {
+        "id": 1094,
+        "partnerUUId": "93fb3e57-b69a-425f-81b3-9ba438463c4d",
+        "name": "KContigo1",
+        "applications": [],
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "settlementAliasId": 210,
+                "uniqueName": "KContigo1",
+                "settlementAliasTypeCd": "1",
+                "recordHistory": {
+                    "createUserId": "x216638",
+                    "createTs": "2020-11-12 14:30:56.234",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2020-11-12 14:30:56.234"
+                },
+                "timePeriod": {
+                    "startTs": "2020-11-12 14:30:56.234",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "organizationContactAddress": {
+            "organizationContactAddressID": 1094,
+            "contactAddressCharacteristic": {
+                "partnerContactAddrId": 1094,
+                "addressTypeCd": "1",
+                "unitNumber": "5",
+                "civicNumber": "6",
+                "streetName": "4968 Yonge St",
+                "streetTypeCd": "default",
+                "streetDirCd": "NE",
+                "municipalityName": "Toronto",
+                "provStateCd": "TX",
+                "postalZipCdTxt": "M2N 7G9",
+                "countryCd": "CAN",
+                "postboxNumber": "5",
+                "stationName": "default",
+                "stationTypeCd": "NA",
+                "stationQualifierName": "default",
+                "ruralRouteTypeCd": "NA",
+                "ruralRouteName": "NA",
+                "hmcsName": "defaut",
+                "fleetMailOfficeName": "default",
+                "careOfTxt": "default",
+                "additionalInfoOne": "default",
+                "additionalInfoTwo": "default",
+                "additionalInfoThree": "Texas",
+                "additionalInfoFour": "Canada",
+                "externalServiceAddressId": "default",
+                "emailAddress": "abc@gmail.com",
+                "mailingTypeCd": "M",
+                "addressMatchingStatCd": "V",
+                "validateAddressIndicator": "N",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2020-11-12 14:30:56.234",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2020-11-12 14:30:56.234"
+                }
+            },
+            "organizationContact": [
+                {
+                    "contactId": 341,
+                    "contactFullName": "Cath",
+                    "contactTelNumber": "1111111111",
+                    "contactEmail": "rene.woon-fat@telus.com",
+                    "commentTxt": "default",
+                    "statusActiveCd": "2",
+                    "contactTitle": "PA",
+                    "contactMobileNumber": "1111111111",
+                    "contactFaxNumber": "1111111111",
+                    "contactPurpose": {
+                        "partnerContactId": 341,
+                        "pcPurposeTypeCd": "2",
+                        "pcPurposeTypeTxt": "Product Contact",
+                        "timePeriod": {
+                            "startTs": "2020-11-12 14:30:56.234",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2020-11-12 14:30:56.234",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2020-11-12 14:30:56.234"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2020-11-12 14:30:56.234",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2020-11-12 14:30:56.234"
+                    }
+                }
+            ]
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2020-11-12 14:30:56.234",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2020-11-12 14:30:56.234",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2020-11-12 14:30:56.234"
+            }
+        },
+        "businessCharacteristic": {
+            "partnerBusinessTypeCd": "1",
+            "partnerBusinessTypeTxt": "Messaging Services",
+            "timePeriod": {
+                "startTs": "2020-11-12 14:30:56.234",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2020-11-12 14:30:56.234",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2020-11-12 14:30:56.234"
+            }
+        },
+        "partyCharacteristic": {
+            "organizationFRName": "default",
+            "certificateName": "default",
+            "busScopeCmtTxt": "Business Scope:",
+            "orgWebsiteUrl": "http://www.test.com",
+            "documentumUniqueShortName": "CathCompany3",
+            "orgSizeTypeCd": "4",
+            "orgSizeTypeTxt": "Greater than 1000",
+            "annualRevenueTypeCd": "2",
+            "yearOfOperationComment": "1",
+            "sapPartnerAcctNum": "default",
+            "langPrefCd": "EN",
+            "connectedCarrierServiceTxt": "Available Services and Connected Carriers:",
+            "timePeriod": {
+                "startTs": "2020-11-12 14:30:56.234",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2020-11-12 14:30:56.234",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2020-11-12 14:30:56.234"
+            }
+        },
+        "comment": {
+            "commentText": "this is a comment",
+            "srcTeamUserId": "rwoonfat",
+            "languagePrefCd": "EN",
+            "commentTypeCd": "1",
+            "timePeriod": {
+                "startTs": "2020-11-12 14:30:56.234",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2020-11-12 14:30:56.234",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2020-11-12 14:30:56.234"
+            }
+        },
+        "recordHistory": {
+            "createUserId": "PartnerPortal",
+            "createTs": "2020-11-12 14:30:56.233",
+            "lastUpdatedUserId": "PartnerPortal",
+            "lastUpdatedTs": "2020-11-12 14:30:56.233"
+        }
+    },
+    {
+        "id": 31325,
+        "partnerUUId": "196d6d6c-2a94-41d6-a2df-eb021f3b27f5",
+        "name": "Peter Yuan 1",
+        "applications": [
+            {
+                "applicationId": 992,
+                "description": "Peter Yuan 1",
+                "name": "Peter Yuan 1",
+                "typeCd": "9",
+                "recordHistory": {
+                    "createUserId": "SDF-NG",
+                    "createTs": "2021-07-21 05:06:11.503",
+                    "lastUpdatedUserId": "SDF-NG",
+                    "lastUpdatedTs": "2021-07-21 05:06:11.503"
+                },
+                "timePeriod": {
+                    "startTs": "2021-07-21 05:06:11.503",
+                    "endTs": "9999-12-31 05:00:00.000"
+                },
+                "statusCd": "5",
+                "statusDesc": "Production Live"
+            }
+        ],
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "settlementAliasId": 211,
+                "uniqueName": "31325",
+                "settlementAliasTypeCd": "1",
+                "recordHistory": {
+                    "createUserId": "SDF-NG",
+                    "createTs": "2021-07-21 05:06:11.503",
+                    "lastUpdatedUserId": "SDF-NG",
+                    "lastUpdatedTs": "2021-08-06 19:18:49.834"
+                },
+                "timePeriod": {
+                    "startTs": "2021-07-21 05:06:11.503",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "organizationContactAddress": {
+            "organizationContactAddressID": 31325,
+            "contactAddressCharacteristic": {
+                "partnerContactAddrId": 31325,
+                "addressTypeCd": "1",
+                "streetTypeCd": "NA",
+                "streetDirCd": "NA",
+                "countryCd": "CAN",
+                "stationTypeCd": "NA",
+                "ruralRouteTypeCd": "NA",
+                "mailingTypeCd": "M",
+                "addressMatchingStatCd": "V",
+                "validateAddressIndicator": "N",
+                "recordHistory": {
+                    "createUserId": "SDF-NG",
+                    "createTs": "2021-07-21 05:06:11.503",
+                    "lastUpdatedUserId": "SDF-NG",
+                    "lastUpdatedTs": "2021-07-21 05:06:11.503"
+                }
+            },
+            "organizationContact": [
+                {
+                    "contactId": 342,
+                    "contactTelNumber": "6472703851",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 342,
+                        "pcPurposeTypeCd": "1",
+                        "pcPurposeTypeTxt": "Business Contact",
+                        "timePeriod": {
+                            "startTs": "2021-08-06 19:18:49.834",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "SDF-NG",
+                            "createTs": "2021-07-21 05:06:11.503",
+                            "lastUpdatedUserId": "SDF-NG",
+                            "lastUpdatedTs": "2021-08-06 19:18:49.834"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "SDF-NG",
+                        "createTs": "2021-07-21 05:06:11.503",
+                        "lastUpdatedUserId": "SDF-NG",
+                        "lastUpdatedTs": "2021-08-06 19:18:49.834"
+                    }
+                }
+            ]
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2021-08-06 19:18:49.834",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "SDF-NG",
+                "createTs": "2021-08-06 19:18:49.834",
+                "lastUpdatedUserId": "SDF-NG",
+                "lastUpdatedTs": "2021-08-06 19:18:49.834"
+            }
+        },
+        "businessCharacteristic": {
+            "partnerBusinessTypeCd": "7",
+            "partnerBusinessTypeTxt": "Other",
+            "timePeriod": {
+                "startTs": "2021-07-21 05:06:11.503",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "SDF-NG",
+                "createTs": "2021-07-21 05:06:11.503",
+                "lastUpdatedUserId": "SDF-NG",
+                "lastUpdatedTs": "2021-07-21 05:06:11.503"
+            }
+        },
+        "partyCharacteristic": {
+            "orgSizeTypeCd": "1",
+            "orgSizeTypeTxt": "1-100",
+            "langPrefCd": "EN",
+            "timePeriod": {
+                "startTs": "2021-07-21 05:06:11.503",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "SDF-NG",
+                "createTs": "2021-07-21 05:06:11.503",
+                "lastUpdatedUserId": "SDF-NG",
+                "lastUpdatedTs": "2021-08-06 19:18:49.834"
+            }
+        },
+        "recordHistory": {
+            "createUserId": "SDF-NG",
+            "createTs": "2021-07-21 05:06:11.503",
+            "lastUpdatedUserId": "SDF-NG",
+            "lastUpdatedTs": "2021-07-21 05:06:11.503"
+        }
+    },
+    {
+        "id": 1000,
+        "partnerUUId": "5b5e78e8-c2cb-4b24-8d4d-09828e769e78",
+        "name": "Bob Company",
+        "applications": [
+            {
+                "applicationId": 995,
+                "description": "Bob Company",
+                "name": "Bob Company",
+                "typeCd": "9",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-06-25 21:36:45.633",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                },
+                "timePeriod": {
+                    "startTs": "2022-06-25 21:36:45.633",
+                    "endTs": "9999-12-31 05:00:00.000"
+                },
+                "statusCd": "5",
+                "statusDesc": "Production Live"
+            }
+        ],
+        "adjustmentCharacteristics": {
+            "settlementAlias": {
+                "settlementAliasId": 214,
+                "uniqueName": "TRACY",
+                "settlementAliasTypeCd": "1",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-06-25 21:36:45.633",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                },
+                "timePeriod": {
+                    "startTs": "2022-06-25 21:36:45.633",
+                    "endTs": "9999-12-31 05:00:00.000"
+                }
+            }
+        },
+        "organizationContactAddress": {
+            "organizationContactAddressID": 1000,
+            "contactAddressCharacteristic": {
+                "partnerContactAddrId": 1000,
+                "addressTypeCd": "1",
+                "streetName": "5 Nahum Het Street, 3rd floor, Topaz Bui",
+                "streetTypeCd": "NA",
+                "streetDirCd": "NA",
+                "municipalityName": "Haifa",
+                "postalZipCdTxt": "31905",
+                "countryCd": "CAN",
+                "stationTypeCd": "NA",
+                "ruralRouteTypeCd": "NA",
+                "mailingTypeCd": "M",
+                "addressMatchingStatCd": "V",
+                "validateAddressIndicator": "N",
+                "recordHistory": {
+                    "createUserId": "PartnerPortal",
+                    "createTs": "2022-06-25 21:36:45.633",
+                    "lastUpdatedUserId": "PartnerPortal",
+                    "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                }
+            },
+            "organizationContact": [
+                {
+                    "contactId": 345,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 345,
+                        "pcPurposeTypeCd": "1",
+                        "pcPurposeTypeTxt": "Business Contact",
+                        "timePeriod": {
+                            "startTs": "2022-06-25 21:36:45.633",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-06-25 21:36:45.633",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-06-25 21:36:45.633",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                    }
+                },
+                {
+                    "contactId": 346,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 346,
+                        "pcPurposeTypeCd": "2",
+                        "pcPurposeTypeTxt": "Product Contact",
+                        "timePeriod": {
+                            "startTs": "2022-06-25 21:36:45.633",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-06-25 21:36:45.633",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-06-25 21:36:45.633",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                    }
+                },
+                {
+                    "contactId": 347,
+                    "contactFullName": "Tracy Twitchell-Fung",
+                    "contactTelNumber": "647-837-6289",
+                    "contactEmail": "tracy.twitchell-fung@telus.com",
+                    "statusActiveCd": "1",
+                    "contactPurpose": {
+                        "partnerContactId": 347,
+                        "pcPurposeTypeCd": "3",
+                        "pcPurposeTypeTxt": "TELUS Contact",
+                        "timePeriod": {
+                            "startTs": "2022-06-25 21:36:45.633",
+                            "endTs": "9999-12-31 05:00:00.000"
+                        },
+                        "recordHistory": {
+                            "createUserId": "PartnerPortal",
+                            "createTs": "2022-06-25 21:36:45.633",
+                            "lastUpdatedUserId": "PartnerPortal",
+                            "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                        }
+                    },
+                    "recordHistory": {
+                        "createUserId": "PartnerPortal",
+                        "createTs": "2022-06-25 21:36:45.633",
+                        "lastUpdatedUserId": "PartnerPortal",
+                        "lastUpdatedTs": "2022-06-25 21:36:45.633"
+                    }
+                }
+            ]
+        },
+        "status": {
+            "partnerStatusCd": "6",
+            "partnerStatusDescTxt": "Production",
+            "timePeriod": {
+                "startTs": "2022-06-25 21:36:45.633",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-06-25 21:36:45.633",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-06-25 21:36:45.633"
+            }
+        },
+        "businessCharacteristic": {
+            "businessDescTxt": "Test",
+            "partnerBusinessTypeCd": "7",
+            "partnerBusinessTypeTxt": "Other",
+            "timePeriod": {
+                "startTs": "2022-06-25 21:36:45.633",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-06-25 21:36:45.633",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-06-25 21:36:45.633"
+            }
+        },
+        "partyCharacteristic": {
+            "busScopeCmtTxt": "This is a testing partner set up for Tracy's use.  Please don't update any information on this without letting me know.  Thanks.",
+            "orgWebsiteUrl": "http://nowebsite.com",
+            "documentumUniqueShortName": "Tracy Company-a451ca20-4768-11e1-8ff9-000144f6f274",
+            "orgSizeTypeCd": "1",
+            "orgSizeTypeTxt": "1-100",
+            "annualRevenueTypeCd": "1",
+            "yearOfOperationComment": "1",
+            "langPrefCd": "EN",
+            "timePeriod": {
+                "startTs": "2022-06-25 21:36:45.633",
+                "endTs": "9999-12-31 05:00:00.000"
+            },
+            "recordHistory": {
+                "createUserId": "PartnerPortal",
+                "createTs": "2022-06-25 21:36:45.633",
+                "lastUpdatedUserId": "PartnerPortal",
+                "lastUpdatedTs": "2022-07-21 19:50:06.419"
+            }
+        },
+        "recordHistory": {
+            "createUserId": "PartnerPortal",
+            "createTs": "2022-06-25 21:36:45.633",
+            "lastUpdatedUserId": "PartnerPortal",
+            "lastUpdatedTs": "2022-06-25 21:36:45.633"
+        }
+    }
+]
