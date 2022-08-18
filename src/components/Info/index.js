@@ -101,6 +101,32 @@ const Info = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
+                <FlexGrid.Col xs={6}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Address:</Typography>
+                    <Typography>19 Eagle Peak Dr Richmond Hill, ON L4S 2W4, Canada</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Email:</Typography>
+                    <Typography>tracy.twitchell-fung@telus.com</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Purpose:</Typography>
+                    <Typography>Bussiness</Typography>
+                    </StackView>
+                  </Box>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
+                    <Typography variant={{ background: 'light' }}>Website:</Typography>
+                    <Typography>http://nowebsite.com</Typography>
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
               </FlexGrid.Row>
             </FlexGrid>
 
