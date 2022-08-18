@@ -63,7 +63,13 @@ const Home = () => {
                             variant={{ alternative: true }}
                           ></Link>
                           {/* <Icon icon={Document} accessibilityLabel="More Info" /> */}
-                          <Icon icon={Clipboard} accessibilityLabel="Edit" />
+                          <Link
+                            icon={Clipboard}
+                            href={`/edit/${partner?.id}`}
+                            variant={{ alternative: true }}
+                            accessibilityLabel="Edit"
+                          ></Link>
+                          {/* <Link icon={Clipboard} accessibilityLabel="Edit" /> */}
                           <Icon icon={Delete} accessibilityLabel="Delete" />
                         </StackView>
                       </Table.Cell>
