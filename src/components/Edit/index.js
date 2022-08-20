@@ -80,7 +80,7 @@ const Edit = () => {
             <Spinner label={`Fetching partner with id: ${id}`} show={loading}>
               <FlexGrid>
               <FlexGrid.Row>
-                <FlexGrid.Col xs={2}>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">        
                       <Typography variant={{ background: 'light', bold: true }}>ID: </Typography>
@@ -88,7 +88,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
+                <FlexGrid.Col xs={12} md={5}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                       <TextInput
@@ -99,7 +99,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
+                <FlexGrid.Col xs={12} md={4}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <TextInput
@@ -112,7 +112,7 @@ const Edit = () => {
                 </FlexGrid.Col>
               </FlexGrid.Row>
               <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <DatePicker label="Partner agreement start:"
@@ -121,7 +121,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={3}>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <DatePicker label="Partner agreement end:"
@@ -130,7 +130,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={6}>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <TextInput
@@ -140,6 +140,8 @@ const Edit = () => {
                     />
                     </StackView>
                   </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <TextInput
@@ -150,6 +152,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <TextInput
@@ -157,29 +160,54 @@ const Edit = () => {
                         value={partner?.streetName}
                         onChange={changeField}
                     />
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
                     <TextInput
                         label="City:"
                         value={partner?.municipalityName}
                         onChange={changeField}
                     />
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
                     <TextInput
                         label="State:"
                         value={partner?.addressMatchingStatCd}
                         onChange={changeField}
                     />
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
                     <TextInput
                         label="Zip code:"
                         value={partner?.postalZipCdTxt}
                         onChange={changeField}
                     />
+                    </StackView>
+                  </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
+                  <Box space={2}>
+                    <StackView space={3} direction="row">
                     <TextInput
                         label="Country code:"
                         value={partner?.countryCd}
                         onChange={changeField}
                     />
-
                     </StackView>
                   </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={6} direction="row">
                     <TextInput
@@ -189,6 +217,8 @@ const Edit = () => {
                     />
                     </StackView>
                   </Box>
+                </FlexGrid.Col>
+                <FlexGrid.Col xs={12} md={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <TextInput
@@ -198,6 +228,7 @@ const Edit = () => {
                     />
                     </StackView>
                   </Box>
+                </FlexGrid.Col>
               </FlexGrid.Row>
             </FlexGrid>
             </Spinner>
