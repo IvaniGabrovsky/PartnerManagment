@@ -117,12 +117,6 @@ const Info = () => {
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Purpose:</Typography>
-                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactPurpose?.pcPurposeTypeTxt}</Typography>
-                    </StackView>
-                  </Box>
-                  <Box space={2}>
-                    <StackView space={3} direction="row">
                     <Typography variant={{ background: 'light', bold: true }}>Website:</Typography>
                     <Typography>{partner?.partyCharacteristic?.orgWebsiteUrl}</Typography>
                     </StackView>

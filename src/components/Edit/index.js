@@ -76,11 +76,11 @@ const Edit = () => {
         <Callout rounded>
           <Card>
             <Typography variant={{ size: 'h1' }}>Partners Information</Typography>
-            <Spacer space={6} />
+            <Spacer space={2} />
             <Spinner label={`Fetching partner with id: ${id}`} show={loading}>
               <FlexGrid>
               <FlexGrid.Row>
-                <FlexGrid.Col xs={3}>
+                <FlexGrid.Col xs={2}>
                   <Box space={2}>
                     <StackView space={3} direction="row">        
                       <Typography variant={{ background: 'light', bold: true }}>ID: </Typography>
@@ -88,7 +88,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={5}>
+                <FlexGrid.Col xs={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                       <TextInput
@@ -99,7 +99,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={4}>
+                <FlexGrid.Col xs={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <TextInput
@@ -112,7 +112,7 @@ const Edit = () => {
                 </FlexGrid.Col>
               </FlexGrid.Row>
               <FlexGrid.Row>
-                <FlexGrid.Col xs={6}>
+                <FlexGrid.Col xs={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <DatePicker label="Partner agreement start:"
@@ -121,7 +121,7 @@ const Edit = () => {
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
-                <FlexGrid.Col xs={6}>
+                <FlexGrid.Col xs={3}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
                     <DatePicker label="Partner agreement end:"
@@ -133,7 +133,7 @@ const Edit = () => {
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <TextArea
+                    <TextInput
                         label="Partner status:"
                         value={partner?.partnerStatusDescTxt}
                         onChange={changeField}
@@ -185,15 +185,6 @@ const Edit = () => {
                     <TextInput
                         label="Email:"
                         value={partner?.contactEmail}
-                        onChange={changeField}
-                    />
-                    </StackView>
-                  </Box>
-                  <Box space={2}>
-                    <StackView space={3} direction="row">
-                    <TextInput
-                        label="Purpose:"
-                        value={partner?.pcPurposeTypeTxt}
                         onChange={changeField}
                     />
                     </StackView>
