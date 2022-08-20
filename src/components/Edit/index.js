@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
 import {
-  Callout, Card, Typography, Spacer, Spinner, FlexGrid, Box, StackView, TextInput
+  Callout, Card, Typography, Spacer, Spinner, FlexGrid, Box, StackView, TextInput, DatePicker, TextArea
 } from '@telus-uds/ds-allium'
 import { NextSeo } from 'next-seo'
 import seoConfig from './seo.config'
@@ -15,6 +15,21 @@ const Edit = () => {
   const [partner, setPartner] = useState({ name: ''})
   const [loading, setLoading] = useState(false)
 
+  const [name, setName] = useState('')
+  const [uniqueName, setUniqueName] = useState('')
+  const [startTs, setStartTs] = useState('')
+  const [endTs, setEndTs] = useState('')
+  const [partnerStatusDescTxt, setPartnerStatusDescTxt] = useState('')
+  const [contactTelNumber, setContactTelNumber] = useState('')
+  const [municipalityName, setMunicipalityName] = useState('')
+  const [streetName, setStreetName] = useState('')
+  const [addressMatchingStatCd, setAddressMatchingStatCd] = useState('')
+  const [postalZipCdTxt, setPostalZipCdTxt] = useState('')
+  const [countryCd, setCountryCd] = useState('')
+  const [contactEmail, setContactEmail] = useState('')
+  const [pcPurposeTypeTxt, setPcPurposeTypeTxt] = useState('')
+  const [orgWebsiteUrl, setOrgWebsiteUrl] = useState('')
+
   const router = useRouter()
   const pathParameters = router?.query
   const { id } = pathParameters
@@ -27,6 +42,20 @@ const Edit = () => {
           `${PARTNER_API_PATH}/${id}`
         )
         setPartner(result.data)
+        setName(result.data.name)
+        setUniqueName(result.data.uniqueName)
+        setStartTs(result.data.startTs)
+        setEndTs(result.data.endTs)
+        setPartnerStatusDescTxt(result.data.partnerStatusDescTxt)
+        setContactTelNumber(result.data.contactTelNumber)
+        setMunicipalityName(result.data.municipalityName)
+        setStreetName(result.data.streetName)
+        setAddressMatchingStatCd(result.data.addressMatchingStatCd)
+        setPostalZipCdTxt(result.data.postalZipCdTxt)
+        setCountryCd(result.data.countryCd)
+        setContactEmail(result.data.contactEmail)
+        setPcPurposeTypeTxt(result.data.pcPurposeTypeTxt)
+        setOrgWebsiteUrl(result.data.orgWebsiteUrl)
         console.log('########## result.data=', result.data)
       } catch (e) {
         console.log('Error:', e)
@@ -62,7 +91,6 @@ const Edit = () => {
                 <FlexGrid.Col xs={5}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light', bold: true }}>Name:</Typography>
                       <TextInput
                         label="Name:"
                         value={partner?.name}
@@ -74,7 +102,11 @@ const Edit = () => {
                 <FlexGrid.Col xs={4}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                      <Typography variant={{ background: 'light', bold: true }}>Unique name:</Typography>
+                    <TextInput
+                        label="Unique name:"
+                        value={partner?.uniqueName}
+                        onChange={changeField}
+                    />
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
@@ -83,61 +115,96 @@ const Edit = () => {
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    {/* <TextInput
-                        label="Unique name:"
-                        value={new Date(partner?.status?.timePeriod?.startTs).toLocaleDateString(locale, options)}
-                    /> */}
-                    <Typography variant={{ background: 'light', bold: true }}>Partner agreement start:</Typography>
+                    <DatePicker label="Partner agreement start:"
+                    value={new Date(partner?.startTs).toLocaleDateString(locale, options)}
+                    onChange={changeField}/>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    {/* <TextInput
-                        label="Unique name:"
-                        value={new Date(partner?.status?.timePeriod?.endTs).toLocaleDateString(locale, options)}
-                    /> */}
-                    <Typography variant={{ background: 'light', bold: true }}>Partner agreement end:</Typography>
+                    <DatePicker label="Partner agreement end:"
+                    value={new Date(partner?.endTs).toLocaleDateString(locale, options)}
+                    onChange={changeField}/>
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                 <FlexGrid.Col xs={6}>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Partner status:</Typography>
-                    <Typography>{partner?.status?.partnerStatusDescTxt}</Typography>
+                    <TextArea
+                        label="Partner status:"
+                        value={partner?.partnerStatusDescTxt}
+                        onChange={changeField}
+                    />
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Phone number:</Typography>
-                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactTelNumber}</Typography>
+                    <TextInput
+                        label="Phone number:"
+                        value={partner?.contactTelNumber}
+                        onChange={changeField}
+                    />
                     </StackView>
                   </Box>
                 </FlexGrid.Col>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Address:</Typography>
-                    <Typography>{partner?.organizationContactAddress?.contactAddressCharacteristic?.streetName}, {partner?.organizationContactAddress?.contactAddressCharacteristic?.countryCd}</Typography>
+                    <TextInput
+                        label="Street:"
+                        value={partner?.streetName}
+                        onChange={changeField}
+                    />
+                    <TextInput
+                        label="City:"
+                        value={partner?.municipalityName}
+                        onChange={changeField}
+                    />
+                    <TextInput
+                        label="State:"
+                        value={partner?.addressMatchingStatCd}
+                        onChange={changeField}
+                    />
+                    <TextInput
+                        label="Zip code:"
+                        value={partner?.postalZipCdTxt}
+                        onChange={changeField}
+                    />
+                    <TextInput
+                        label="Country code:"
+                        value={partner?.countryCd}
+                        onChange={changeField}
+                    />
+
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={6} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Email:</Typography>
-                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactEmail}</Typography>
+                    <TextInput
+                        label="Email:"
+                        value={partner?.contactEmail}
+                        onChange={changeField}
+                    />
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Purpose:</Typography>
-                    <Typography>{partner?.organizationContactAddress?.organizationContact[0]?.contactPurpose?.pcPurposeTypeTxt}</Typography>
+                    <TextInput
+                        label="Purpose:"
+                        value={partner?.pcPurposeTypeTxt}
+                        onChange={changeField}
+                    />
                     </StackView>
                   </Box>
                   <Box space={2}>
                     <StackView space={3} direction="row">
-                    <Typography variant={{ background: 'light', bold: true }}>Website:</Typography>
-                    <Typography>{partner?.partyCharacteristic?.orgWebsiteUrl}</Typography>
+                    <TextInput
+                        label="Website:"
+                        value={partner?.orgWebsiteUrl}
+                        onChange={changeField}
+                    />
                     </StackView>
                   </Box>
               </FlexGrid.Row>
